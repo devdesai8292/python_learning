@@ -13,3 +13,12 @@
 
 
 
+#Tuples are immutable and have a fixed size, so tuples use less memory. Overall, tuples are faster to create
+#and access, resulting in better performance that can be noticeable with large amounts of data.
+
+
+x = (1,2,3)
+print(x)
+print(type(x))
+
+#x[2] = 4   This operation is not allowed in the tuple as tuple is immutable
