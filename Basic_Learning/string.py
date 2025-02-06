@@ -32,4 +32,27 @@ print(greet_format.format(name).lower())
 print(greet_format.format(name).upper())
 
 
+spouse = "Pooja"
+
+print(spouse[0])  #This will print the first character of the string
+print(spouse[1])  #This will print the second character of the string
+print(spouse[-1])  
+print(spouse[0:2])
+
+#This is important when you want to reverse the string
+#slicing operation 
+#[start:stop:step]
+print(spouse[::-1])  # This will print the string in reverse
+
+
+
+
+
+#formating the string 
+
+print(f"my name is {name} is and my wife's name is {spouse}")
+
+
+
+
 
